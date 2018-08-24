@@ -9,3 +9,5 @@
 参考[微信公众平台-消息加解密说明](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1434696670)中的示例代码，使用安全模式对公众号的消息进行加解密，由于示例中的python代码是python2写的，而我们自己是用python3进行开发的，所以需要对示例代码进行修改以适配python3。
 
 主要差别在于字符的类型，最好将所有str类型的文本或者字段转成bytes类型。
+
+使用方法参考 Sample.py
